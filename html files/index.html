@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sign-In</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home/Skill-link</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/signup.css">
+</head>
+<body>
+  
+  <header>
+    <a href="auth.html" type="link" class="a" >Home</a>
+    <a href="jobs.html" type="link" class="a" >Job Lists</a>
+    <a href="profile.html" type="link" class="a">Profile</a>
+    <a href="job-details.html" type="link" class="a">Top demands</a>
+    <a href="index.html" type="link" style="left:700px; background-color: black; color: beige;" class="a">Sign Up/Login</a>
+  </header>
+   
+
+  <address class="Signup">
+    <h3>SIGN UP</h3>
+    <P class="Signup">Email/Phone No.</P>
+    <input type="text" class="Signup" id="email">
+    <P class="Signup">Password</P>
+    <input type="text" class="Signup" id="password" style="left: 428px;">
+    <button class="press"  style="margin-top: -60px; padding-left: 35px; padding-right: 35px;" id="signupButton">Sign up</button>
+    <button class="press"  id="signOutButton">Sign Out</button>
+    <P class="Signup" style="margin-left: 50%;">OR</P>
+    <a href="#" id="googleSignInButton" class="Signup" style="width: 90%; margin-left: -730px; text-align: center; text-decoration: none;" >Continue with Google</a>
+  </address>
+
+  <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-auth.js"></script>
+  <script src="https://apis.google.com/js/platform.js" async defer></script>
+  <script type="module" defer src="../js/signup.js"></script>
+  
+  
+  
+
+</body>
+</html>

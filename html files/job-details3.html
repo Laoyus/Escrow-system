@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Freelance Platform</title>
+  <link rel="stylesheet" href="../css/job-details.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" crossorigin="anonymous">
+</head>
+<body>
+  <header>
+    <a href="auth.html" type="link" class="a" >Home</a>
+    <a href="jobs.html" type="link" class="a"  >Job Lists</a>
+    <a href="profile.html" type="link" class="a">Profile</a>
+    <a href="job-details.html" type="link" class="a" >Top demands</a>
+    <a href="index.html" type="link" style="left:700px;" class="a">Sign Up/Login</a>
+  </header>
+  <main class="container" id="job-details"> 
+    <span class="profile-icon"></span>
+    <span id="job-details-container">Crypto Influecer</span> 
+    <p class="container">Influencer possessing in-depth knowledge of cryptocurrencies, blockchain technology, and related industries. Staying up-to-date with the latest developments and trends, to provide valuable insights and analysis.
+        Having a substantial following on social media platforms, such as Twitter, YouTube, Instagram, or Telegram, with a strong engagement rate and community interaction.
+        Content Creation of high-quality, including educational videos, blog posts, podcasts, and live streams, which cater to various audience segments, from beginners to advanced enthusiasts.
+        Community Building for discussions, Q&A sessions, and collaborative learning.
+        may have personal biases or investments,but must strive to maintain objectivity and transparency in content, avoiding promotional or manipulative tactics.
+        Collaborations with projects, exchanges, and other industry players to promote their initiatives, share knowledge, and build credibility.</p><br><br><br>
+    <p class="container" style="margin-top: -0px; font-size: large;">The Pay will be $300 for all work and will be given after 10 days of development</p>
+    <aside style="display: flex;">
+      <span id="tech-stack">YouTube</span>
+      <span id="tech-stack">Blockchain</span>
+      <span id="tech-stack">Solidify</span>
+      <span id="tech-stack">Truffle</span>
+      
+    </aside></a>
+    
+    <aside style="display: flex;">
+      <span id="tech-stack">Ethereum</span>
+      <span id="tech-stack">Bitcoin</span>
+      <span id="tech-stack">Time Farm</span>
+      <span id="tech-stack">Twitter</span>
+      <span id="tech-stack">Reddit</span>
+       
+    </aside></a>
+    <aside style="display: flex;">
+      <span id="tech-stack">Niche</span>
+      <span id="tech-stack">NFTs</span>
+      <span id="tech-stack">experts</span>
+      <span id="tech-stack">Educator</span>
+      <span id="tech-stack">Editor</span>
+      <span id="tech-stack">Canvas</span>  
+    </aside></a>
+    <article class="box">
+      $300<br>
+      30 Days<br><br>
+      <button id="openPopup" class="box2">
+          <span >Apply For Job</span>
+      </button>
+      
+    </article>
+
+    <div id="popup" class="popup"> 
+      <div class="popup-content"> 
+        <span class="close">&times;</span> 
+        <p style="font-weight: 500; font-size: larger; margin-top: 40px;"><i class="fa fa-info-circle"></i>&nbsp;Please provide accurate details for smooth transactions</p>
+        <p>Your Application</p>
+        <p style="float: right; bottom: 40px;" id="wordCount"></p> 
+          <textarea id="applicationText" style="max-width: 99.5%; max-height: 100px;" rows="1"></textarea>
+        <p>Wallet</p>
+        <input type="text" id="input-box" placeholder="MetaMask">
+        <p>Proposed Budget</p>
+        <input type="text" id="input-box" placeholder="$300">
+        <p>Proposed Deadline(Days)</p>
+        <input type="text" id="input-box" placeholder="30">
+      </div> 
+      <p id="Apply">Apply</p>
+    </div>
+
+    <div id="secondPopup" class="popup"> 
+      <div class="popup-content"> 
+        <span class="close">&times;</span> 
+        <p id="responseMessage"></p> 
+      </div> 
+    </div>
+  </main> 
+  
+
+ 
+  <script defer src="../js/job-details.js"></script>
+
+ 
+</body>
+</html>

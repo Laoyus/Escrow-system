@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Freelance Platform</title>
+  <link rel="stylesheet" href="../css/job-details.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" crossorigin="anonymous">
+
+
+
+</head>
+<body>
+  <header>
+    <a href="auth.html" type="link" class="a" >Home</a>
+    <a href="jobs.html" type="link" class="a"  >Job Lists</a>
+    <a href="profile.html" type="link" class="a">Profile</a>
+    <a href="job-details.html" type="link" class="a" >Top demands</a>
+    <a href="index.html" type="link" style="left:700px;" class="a">Sign Up/Login</a>
+  </header>
+  <main class="container" id="job-details"> 
+    <span class="profile-icon"></span>
+    <span id="job-details-container">New AI Model</span> 
+    <p class="container">Data Collection and Preprocessing data from multiple sources, ensuring data quality and integrity.
+        AI Algorithm Design and Training including neural networks, decision trees, and clustering models, to solve specific business problems.
+        Model Implementation of trained AI models into real-world applications or systems, ensuring seamless integration and optimal performance.
+        System Maintenance and Deployment: Test, deploy, and maintain AI models, as well as the underlying AI infrastructure, to ensure continuous improvement and reliability.
+       </p><br><br><br>
+    <p class="container" style="margin-top: -0px; font-size: large;">The Pay will be $100 for all work and will be given after 16 days of development</p>
+    <aside style="display: flex;">
+      <span id="tech-stack">C++</span>
+      <span id="tech-stack">MS Excel</span>
+      <span id="tech-stack">TensorFlow</span>
+      <span id="tech-stack">PyTorch</span>
+      <span id="tech-stack">Maths</span>
+      <span id="tech-stack">Back-end</span>  
+    </aside></a>
+    <aside style="display: flex;">
+      <span id="tech-stack">PHP</span>
+      <span id="tech-stack">C</span>
+      <span id="tech-stack">C#</span>
+      <span id="tech-stack">Numpy</span>
+      <span id="tech-stack">Panda</span>
+      <span id="tech-stack">HTML5</span>  
+    </aside></a>
+    <aside style="display: flex;">
+      <span id="tech-stack">Matplotlib</span>
+      <span id="tech-stack">Bitcoin</span>
+      <span id="tech-stack">Time Farm</span>
+      <span id="tech-stack">CSS</span>
+      <span id="tech-stack">HTML</span>
+      <span id="tech-stack">CSS3</span>  
+    </aside></a>
+    <aside style="display: flex;">
+      <span id="tech-stack">NodeJS</span>
+      <span id="tech-stack">Windows</span>
+      <span id="tech-stack">iOS</span>
+      <span id="tech-stack">MS Office</span>
+      <span id="tech-stack">PPT</span>
+      <span id="tech-stack">Canvas</span>  
+    </aside></a>
+    <article class="box">
+      $100<br>
+      20 Days<br><br>
+      <button id="openPopup" class="box2">
+          <span >Apply For Job</span>
+      </button>
+      
+    </article>
+
+    <div id="popup" class="popup"> 
+      <div class="popup-content"> 
+        <span class="close">&times;</span> 
+        <p style="font-weight: 500; font-size: larger; margin-top: 40px;"><i class="fa fa-info-circle"></i>&nbsp;Please provide accurate details for smooth transactions</p>
+        <p>Your Application</p>
+        <p style="float: right; bottom: 40px;" id="wordCount"></p> 
+          <textarea id="applicationText" style="max-width: 99.5%; max-height: 100px;" rows="1"></textarea>
+        <p>Wallet</p>
+        <input type="text" id="input-box" placeholder="MetaMask">
+        <p>Proposed Budget</p>
+        <input type="text" id="input-box" placeholder="$300">
+        <p>Proposed Deadline(Days)</p>
+        <input type="text" id="input-box" placeholder="30">
+      </div> 
+      <p id="Apply">Apply</p>
+    </div>
+
+    <div id="secondPopup" class="popup"> 
+      <div class="popup-content"> 
+        <span class="close">&times;</span> 
+        <p id="responseMessage"></p> 
+      </div> 
+    </div>
+  </main> 
+  
+  <script defer src="../js/job-details.js"></script>
+
+ 
+</body>
+</html>

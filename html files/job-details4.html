@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Freelance Platform</title>
+  <link rel="stylesheet" href="../css/job-details.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" crossorigin="anonymous">
+</head>
+<body>
+  <header>
+    <a href="auth.html" type="link" class="a" >Home</a>
+    <a href="jobs.html" type="link" class="a"  >Job Lists</a>
+    <a href="profile.html" type="link" class="a">Profile</a>
+    <a href="job-details.html" type="link" class="a" >Top demands</a>
+    <a href="index.html" type="link" style="left:700px;" class="a">Sign Up/Login</a>
+  </header>
+  <main class="container" id="job-details"> 
+    <span class="profile-icon"></span>
+    <span id="job-details-container">Prompter</span> 
+    <p class="container"> Design and iterate on prompts to optimize AI model outputs for specific tasks, domains, and applications.
+        Develop a deep understanding of the AI model’s capabilities, limitations, and biases to create effective prompts.
+        Domain Expertise in the course subject matter and relevant industries to create prompts that are relevant and accurate.
+        Test prompts with AI models, analyze results, and refine prompts based on feedback and performance metrics.
+        Work closely with AI developers, researchers, and other stakeholders to ensure prompts align with project goals and requirements.</p><br><br><br>
+    <p class="container" style="margin-top: -0px; font-size: large;">The Pay will be $100 for all work and will be given after 10 days of development</p>
+    <aside style="display: flex;">
+        <span id="tech-stack">LLM</span>
+        <span id="tech-stack">MS Excel</span>
+        <span id="tech-stack">TensorFlow</span>
+        <span id="tech-stack">PyTorch</span>
+        <span id="tech-stack">Maths</span>
+        <span id="tech-stack">Back-end</span>  
+      </aside></a>
+      <aside style="display: flex;">
+        
+        <span id="tech-stack">Numpy</span>
+        <span id="tech-stack">Panda</span>
+          
+      </aside></a>
+      <aside style="display: flex;">
+        <span id="tech-stack">Matplotlib</span>
+         
+      </aside></a>
+      
+     
+    <article class="box">
+      $100<br>
+      50 Days<br><br>
+      <button id="openPopup" class="box2">
+          <span >Apply For Job</span>
+      </button>
+      
+    </article>
+
+    <div id="popup" class="popup"> 
+      <div class="popup-content"> 
+        <span class="close">&times;</span> 
+        <p style="font-weight: 500; font-size: larger; margin-top: 40px;"><i class="fa fa-info-circle"></i>&nbsp;Please provide accurate details for smooth transactions</p>
+        <p>Your Application</p>
+        <p style="float: right; bottom: 40px;" id="wordCount"></p> 
+          <textarea id="applicationText" style="max-width: 99.5%; max-height: 100px;" rows="1"></textarea>
+        <p>Wallet</p>
+        <input type="text" id="input-box" placeholder="MetaMask">
+        <p>Proposed Budget</p>
+        <input type="text" id="input-box" placeholder="$300">
+        <p>Proposed Deadline(Days)</p>
+        <input type="text" id="input-box" placeholder="30">
+      </div> 
+      <p id="Apply">Apply</p>
+    </div>
+
+    <div id="secondPopup" class="popup"> 
+      <div class="popup-content"> 
+        <span class="close">&times;</span> 
+        <p id="responseMessage"></p> 
+      </div> 
+    </div>
+  </main> 
+ 
+
+ 
+  <script defer src="../js/job-details.js"></script>
+
+ 
+</body>
+</html>
